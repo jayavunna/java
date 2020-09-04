@@ -1,0 +1,13 @@
+<web-app>
+<context-param>
+<param-name>message</param-name>
+<param-value>Welcome Context</param-value>
+</context-param>
+<servlet>
+<servlet-name>config</servlet-name>
+<servlet-class>ConfigServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>config</servlet-name>
+<url-patter>/config</url/pattern>
+</web-app>
